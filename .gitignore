@@ -3,13 +3,14 @@ __pycache__/
 .DS_Store
 .env
 data/Vangogh.pdf
-RAG*.ipynb
-*RAG*.ipynb
+notebooks/RAG*.ipynb
+notebooks/*RAG*.ipynb
 storage/
 storage_sql/
 .ipynb_checkpoints/
 .venv/
-knowledge-loss.ipynb
-langchain-postgres-sqlagent-1.ipynb
+notebooks/knowledge-loss.ipynb
+notebooks/langchain-postgres-sqlagent-1.ipynb
+notebooks/angchain-postgres-sqlagent-template-5.ipynb
 
 

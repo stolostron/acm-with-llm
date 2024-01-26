@@ -43,6 +43,6 @@ Note - Search and Knowledge Graph are mutually exclusive. You can run anyone you
 1. https://docs.argilla.io/en/latest/practical_guides/practical_guides.html
 
 ## Experimental Notebooks
-There are some experimental notebooks here. These can be ignored for now as they have not been cleaned up. They were used for self education and experimentation.
+Refer to the [README](./notebooks/README.md)
 
 
