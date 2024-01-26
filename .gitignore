@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+.env
+data/Vangogh.pdf
+RAG*.ipynb
+*RAG*.ipynb
+storage/
+storage_sql/
+.ipynb_checkpoints/
+.venv/
+knowledge-loss.ipynb
+langchain-postgres-sqlagent-1.ipynb
+
+
