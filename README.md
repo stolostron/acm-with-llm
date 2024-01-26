@@ -45,4 +45,7 @@ Note - Search and Knowledge Graph are mutually exclusive. You can run anyone you
 ## Experimental Notebooks
 Refer to the [README](./notebooks/README.md)
 
+## Questions this can answer
+Refer to [Queries](./Queries.md)
+
 

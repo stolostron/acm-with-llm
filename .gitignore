@@ -11,6 +11,6 @@ storage_sql/
 .venv/
 notebooks/knowledge-loss.ipynb
 notebooks/langchain-postgres-sqlagent-1.ipynb
-notebooks/angchain-postgres-sqlagent-template-5.ipynb
+notebooks/langchain-postgres-sqlagent-template-5.ipynb
 
 
