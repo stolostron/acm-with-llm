@@ -11,4 +11,4 @@ psycopg2==2.9.3
 python-environ==0.4.54
 python-dotenv==1.0.0
 
-argilla=1.21.0
+argilla==1.21.0

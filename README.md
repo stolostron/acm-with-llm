@@ -8,16 +8,45 @@ https://python.langchain.com/docs/integrations/toolkits/sql_database
 ## What do you need to run
 ### Prereq
 1. Clone this repo
-1. Setup venv
+1. Setup venv, review the Python 3.12 and Required Linux Packages sections is using Linux.
     - `cd to the repo dir`
     - run: 
         ```
         python -m venv .venv
         source .venv/bin/activate
+        pip install -r src/requirements.txt
         ```
     - run :`which python` and this show that python is being used from the venv directory
     - after all work is done, to exit the venv, just run: `deactivate`
 1. Setup Argilla as explained in section [to run Argilla](README.md/#to-run-argilla)    
+1. Setup and run neo4j as described in the [Knowledge Graph repository](https://github.com/stolostron/knowledge-graph/)
+   - An additional step is needed from the provided instructions for neo4j.  You must enable 
+     the APOC plugin which can be done by providing the following additional parameters with
+     the `docker run` command:
+     ```
+        -e NEO4J_apoc_export_file_enabled=true \
+           -e NEO4J_apoc_import_file_enabled=true \
+           -e N0EO4J_apoc_import_file_use__neo4j__config=true \
+           -e NEO4J_PLUGINS=\[\"apoc\"\] \
+     ```
+1. Copy `env-sample` to `.env` and edit the new file.
+  1. Obtain an API Key token from openai.com and update the value for the `OPENAI_API_KEY` variable. **NOTE** This requires you purchase a Tier 1 rate from openai.com because the gpt-4 model is being used.  See [Open AI Rate Limits](https://platform.openai.com/docs/guides/rate-limits/usage-tiers?context=tier-one) for more details.
+  1. Update your DB credentials if using the search llm.
+  1. Update the `NEO4J_PASSWORD` to match the password you are using for neo4j if using the
+     Knowledge Graph llm.
+  1. Be aware the port for neo4j is the Bolt port that default to `7687`, not the console port.
+  1. Adjust other values if necessary.
+#### Python 3.12
+This setup procedure is not compatible with Python 3.12 or newer.  You must install and use
+Python 3.11 for the virtual environment.  See the required packages to install in the next section.  When you setup the virtual python environment, run `python3.11 -m venv .venv` so python 3.11 will be 
+used instead of 3.12.
+#### Required Linux Packages
+If you are running Linux, make sure you have the following packages installed.
+- python3.11 (if Python 3.12 is the default)
+- python3.11-devel (if Pythong 3.12 is the default)
+- postgresql-devel
+- g++
+
 ### Search using LLM
 1. Have PostgreSQL DB with search data somewhere accessible
 1. Run: `streamlit run src/search_chat.py --server.port 8051`
