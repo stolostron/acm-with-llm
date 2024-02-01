@@ -1,3 +1,18 @@
+## Motivation
+
+This repo contains some prototypes to run LLM atop ACM data and explore the boundaries. These require subscription to OpenAI as explained below. 
+
+### On ACM Search Data
+ACM Search data is stored in PostgreSQL DB. A sample database content file is included [here](./data/search_load.sql).
+1. Create a database in PostgreSQL. 
+1. Populate the database by importing [here](./data/search_load.sql) or running the SQLs manually.
+1. Follow the steps mentioned below to get a Search-LLM to run.
+
+### On ACM Knowledge Graph Data
+[Knowledge Graphs](https://github.com/stolostron/knowledge-graph) are being created for ACM to help explain and manage certain complex cases.
+To see how LLMs can help answer questions from Knowledge Graphs follow the steps mentioned below.
+
+
 ## Important Links for Langchain/LLM
 
 https://python.langchain.com/docs/use_cases/graph/graph_cypher_qa
