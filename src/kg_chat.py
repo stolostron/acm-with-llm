@@ -91,7 +91,12 @@ RETURN p AS path
 # tell me all things that gets created in namespace open-cluster-management-observability or cluster-scoped and is on hub and who creates them
 MATCH p=(u:Users)-[*3]-(n)
 RETURN p
-
+# What Intermediate Resources are created by Policies?
+match p=(:Processor) - [:CREATES] -> (r:IntermediateResource)  where r.onManaged = true and r.group = 'policy.open-cluster-management.io' 
+return(r)
+# What happens after a User creates a policy on the hub until it gets onManaged?
+MATCH p=(:Users)-[*1..4]-(x)-[:CREATES]->(q:IntermediateResource) where q.group = 'policy.open-cluster-management.io' 
+RETURN p AS path
 
 
 
