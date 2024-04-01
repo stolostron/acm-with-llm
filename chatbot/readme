@@ -1,0 +1,7 @@
+1. Update the env file with your keys and rename to .env
+2. Run pip install requirements.txt in your environment
+3. Run Argilla to capture the in[ut and output. You can disable argilla if this isn't required. 
+	docker run -d --network argilla-net --name quickstart -p 6900:6900 argilla/argilla-quickstart:latest
+4. Port-forward postgres service to connect to search database.
+	oc port-forward service/search-postgres -n open-cluster-management 5432:5432
+5. Run python chat_v3.py

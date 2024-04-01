@@ -1,0 +1,8 @@
+argilla==1.26.1
+gradio==4.24.0
+langchain==0.1.14
+langchain_community==0.0.30
+langchain_core==0.1.37
+langchain_openai==0.1.1
+openai==1.14.3
+python-dotenv==1.0.1
