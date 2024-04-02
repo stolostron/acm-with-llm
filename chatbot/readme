@@ -1,6 +1,18 @@
 1. Update the env file with your keys and rename to .env
 2. Run pip install requirements.txt in your environment
-3. Run Argilla to capture the in[ut and output. You can disable argilla if this isn't required. 
+3. Run Argilla to capture the input and output. You can disable argilla if this isn't required. 
+	Comment out these lines for disabling argilla:
+	# dataset = callback()
+	# 
+	# argilla_callback = ArgillaCallbackHandler(
+	#     dataset_name="langchain-dataset",
+	#     workspace_name="admin",
+	#     api_url=os.getenv('ARGILLA_API_URL'),
+	#     api_key=os.getenv('ARGILLA_API_KEY')
+	# )
+	# callbacks = [StdOutCallbackHandler(), argilla_callback]
+	# add_record(final_prompt.format(input=message), response['output'],dataset) #this works
+
 	docker run -d --network argilla-net --name quickstart -p 6900:6900 argilla/argilla-quickstart:latest
 4. Port-forward postgres service to connect to search database.
 	oc port-forward service/search-postgres -n open-cluster-management 5432:5432
