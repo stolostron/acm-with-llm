@@ -16,5 +16,6 @@ notebooks/langchain-chat-1.ipynb
 notebooks/langchain-chat-2.ipynb
 relation.sql
 basebot/__pycache__/
+basebot/eventdump.csv
 
 

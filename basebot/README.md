@@ -29,11 +29,12 @@ The example below uses:
       (pol3:Policy {name: 'policy-3'}),
       (pol4:Policy {name: 'policy-4'}),
       (pol5:Policy {name: 'policy-5'}),
-      (cluster1:Cluster {name: 'cluster-1'}),
-      (cluster2:Cluster {name: 'cluster-2'}),
-      (cluster3:Cluster {name: 'cluster-3'}),
-      (cluster4:Cluster {name: 'cluster-4'}),
-      (cluster5:Cluster {name: 'cluster-5'}),
+      (polx:Policy {name: 'policy-x'}),
+      (cluster1:Cluster {name: 'cluster-1', location: 'eastcoast'}),
+      (cluster2:Cluster {name: 'cluster-2', location: 'westcoast'}),
+      (cluster3:Cluster {name: 'cluster-3', location: 'westcoast'}),
+      (cluster4:Cluster {name: 'cluster-4', location: 'northeast'}),
+      (cluster5:Cluster {name: 'cluster-5', location: 'northeast'}),
 
       (object1:Object {name: 'object-1'}),
       (object2:Object {name: 'object-2'}),
@@ -56,6 +57,7 @@ The example below uses:
       (pol4)-[:RUNSON]->(cluster5),
       (pol5)-[:RUNSON]->(cluster5),
       (pol5)-[:RUNSON]->(cluster1),
+      (polx)-[:RUNSON]->(cluster1),
       (pol1)-[:MANAGES]->(object1),
       (pol1)-[:MANAGES]->(object2),
       (pol2)-[:MANAGES]->(object3),
@@ -66,6 +68,7 @@ The example below uses:
       (pol4)-[:MANAGES]->(object8),
       (pol5)-[:MANAGES]->(object9),
       (pol5)-[:MANAGES]->(object10),
+      (polx)-[:MANAGES]->(object1),
 
       (object1)-[:ISON]->(cluster1),
       (object2)-[:ISON]->(cluster2),
@@ -107,11 +110,30 @@ pip install -r basebot/requirements.txt
     insert into relation.local_policies values ('event1', 'policy-3', 'cluster-3', 'hub-1', 'NonCompliant; violation - limitranges [container-mem-limit-range] not found in namespace default', 'PolicyStatusSync', 1, '{ "component": "policy-status-history-sync"}', now(), 'non-compliant');
     insert into relation.local_policies values ('event1', 'policy-3', 'cluster-4', 'hub-1', 'NonCompliant; violation - limitranges [container-mem-limit-range] not found in namespace default', 'PolicyStatusSync', 1, '{ "component": "policy-status-history-sync"}', now(), 'non-compliant');
     insert into relation.local_policies values ('event1', 'policy-3', 'cluster-3', 'hub-1', 'NonCompliant; violation - limitranges [container-mem-limit-range] not found in namespace default', 'PolicyStatusSync', 1, '{ "component": "policy-status-history-sync"}', now(), 'non-compliant');
+    insert into relation.local_policies values ('event1', 'policy-x', 'cluster-1', 'hub-1', 'Unknown; Policy default/policy-x was propagated', 'PolicyPropagation', 1, '{ "component": "policy-status-history-sync"}', now(), 'unknown');
+    insert into relation.local_policies values ('event1', 'policy-1', 'cluster-1', 'hub-1', 'NonCompliant; violation - limitranges [container-mem-limit-range] not found in namespace default', 'PolicyStatusSync', 1, '{ "component": "policy-status-history-sync"}', now(), 'non-compliant');
     ```
+    
+
 1. update the [.env](../.env) file if needed
 
 ### Run the code
 python basebot/chat.py
 
 ### Ask Questions
+
+[Questions](QueriesIssues.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
