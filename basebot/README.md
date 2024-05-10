@@ -20,7 +20,7 @@ The example below uses:
 ### Update Neo4j
 1. log into the Neo4j browser: http://localhost:7474/browser/
 1. change the password 
-1. update the [.env](../.env) file
+1. update the [.env](../.env) file with NEO4J_URL(neo4j://localhost:7687), NEO4J_DB and NEO4J_PASSWORD
 1. insert this data into the Neo4j
     ```
     CREATE
