@@ -12,5 +12,10 @@ storage_sql/
 notebooks/knowledge-loss.ipynb
 notebooks/langchain-postgres-sqlagent-1.ipynb
 notebooks/langchain-postgres-sqlagent-template-5.ipynb
+notebooks/langchain-chat-1.ipynb
+notebooks/langchain-chat-2.ipynb
+relation.sql
+basebot/__pycache__/
+basebot/eventdump.csv
 
 
