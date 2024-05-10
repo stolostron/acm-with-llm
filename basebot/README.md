@@ -1,7 +1,7 @@
 
 ## Key value prop
 The example below uses:
-1. 2 different agents (SQL and NeO4j) to answer the questions
+1. 2 different agents (SQL and Neo4j) to answer the questions
 1. The question has to go through a routing module which uses fewshot prompt based system to decide which agent to call based on user intent.
 1. And obviously this is extendible - one of the agents could be a RAG which gets data from a document etc.
 
