@@ -3,10 +3,7 @@ OPENAI_API_KEY=abc-def-ghi
 DBPASS=password
 DBUSER=nameofuser
 DATABASE=search
+DBHOST=localhost
+DBPORT=5432
+DBSCHEMA=public
 
-NEO4J_PASSWORD=password
-NEO4J_URL="neo4j://localhost:7687"
-NEO4J_DB="neo4j"
-
-ARGILLA_API_URL="http://localhost:6900"
-ARGILLA_API_KEY="admin.apikey"

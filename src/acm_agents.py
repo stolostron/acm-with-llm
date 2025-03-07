@@ -103,7 +103,15 @@ model = ChatOpenAI(model="gpt-4o", temperature=0)
 
 
 def router_node(state: AgentState):
-
+    """
+    Looks at the user question and decides which agent can handle the job.
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """
     messages = [
         SystemMessage(content=ROUTER_PROMPT),
         HumanMessage(content=state['task'])
@@ -122,6 +130,15 @@ def router_node(state: AgentState):
     return {"route":response.content,"messages":state['task']}
 
 def next_step(state: AgentState):
+    """
+    This is a conditional edge handler
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """    
     if  state['route'] == 'author_node' :
         return 'author'
     elif state['route'] == 'search_node' :
@@ -130,6 +147,15 @@ def next_step(state: AgentState):
         return 'END'
     
 def author_node(state: AgentState):
+    """
+    Helps to create a ACM Policy. And based on the feedback it can improve the policy.
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """
 
     i = state['iteration']
     print( "Iteration number: ",state['iteration']+1)
@@ -149,7 +175,15 @@ def author_node(state: AgentState):
     return {"content": response.content,'iteration': i+1,"messages":response.content}
 
 def critic_node(state: AgentState):
+    """
+    Helps to review a ACM Policy and give feedback for improvement.
     
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """    
     content = state['content']  
     messages = [
         SystemMessage(content=CRITIC_PROMPT.format(content=content)),
@@ -161,7 +195,16 @@ def critic_node(state: AgentState):
     return {"summary": response.content,"messages":response.content}
 
 def scorer_node(state: AgentState):
-
+    """
+    Helps to score a ACM Policy. This is a stub at the moment.
+    This needs to be worked on.
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """  
     content = state['content']  
     messages = [
         SystemMessage(content=SCORER_PROMPT.format(content=content)),
@@ -173,7 +216,16 @@ def scorer_node(state: AgentState):
     return {"score": response.content,"messages":response.content}
 
 def pr_node(state: AgentState):
-
+    """
+    Send a PR for the code being generated. This is just a stub right now.
+    Implementation is missing
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """
     content = state['content']  
     messages = [
         SystemMessage(content=PR_PROMPT.format(content=content)),
@@ -185,23 +237,47 @@ def pr_node(state: AgentState):
     return {"pr": response.content,"messages":response.content}
 
 def proceed(state: AgentState):
+    """
+    This is a conditional edge handler.
+    
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """ 
     if  state['iteration']>3 :
         return False
     else :
         return True
     
 def search_node(state: AgentState):
+    """
+    Helps to handle a ACM Search query. As of now it needs a local DB.
+    But we can easily change that.
     
+    Args:
+        state: The Agent State
+        
+    Returns:
+        Updates the Agent State
+    """    
+    DBUSER=os.getenv('DBUSER')
     DBPASS=os.getenv('DBPASS')
     DATABASE=os.getenv('DATABASE')
-    SCHEMA=os.getenv('DBUSER')
+    DBHOST=os.getenv('DBHOST')
+    DBPORT=os.getenv('DBPORT')
+    DBSCHEMA=os.getenv('DBSCHEMA')
     
     print("DB Name: ",DATABASE)
-    print("DB Pass: ",DBPASS)
-    print("DB Schema: ",SCHEMA)
+    print("DB Host: ",DBHOST)
+    print("DB Port: ",DBPORT)
+    print("DB User: ",DBUSER)
+    print("DB Schema: ",DBSCHEMA)
 
     db = SQLDatabase.from_uri(
-    f"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}"
+    #f"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}"
+    f"postgresql+psycopg2://{DBUSER}:{DBPASS}@{DBHOST}:{DBPORT}/{DATABASE}",schema=DBSCHEMA
     )
     toolkit = SQLDatabaseToolkit(db=db, llm=model)
    
@@ -256,9 +332,9 @@ def process(query):
         for s in graph.stream({
             'task': query, 'iteration':0,"summary": "no feedback yet",
         }, thread):
-            #print(s)
+            print(s)
             #print(list(s.values())[0])
-            #print("----")
+            print("----")
 
             state = graph.get_state(thread).values
 
