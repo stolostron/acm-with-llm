@@ -1,0 +1,17 @@
+networkx
+ipykernel 
+kubernetes
+prometheus_api_client
+numpy
+graphviz
+langgraph
+langchain
+jupyter
+openai
+python-dotenv
+langgraph-checkpoint-sqlite
+langchain_community
+langchain_core
+langchain_openai
+psycopg2
+
