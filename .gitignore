@@ -19,5 +19,4 @@ basebot/__pycache__/
 basebot/eventdump.csv
 src/test.py
 .acmllm/
-
-
+.vscode
