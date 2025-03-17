@@ -1,4 +1,5 @@
 import os
+import sys
 import openai
 from dotenv import load_dotenv, find_dotenv
 
@@ -91,7 +92,11 @@ Just output that in a nicely formatted fashion
 root_nodes = ['author','search']
 
 
-_ = load_dotenv(find_dotenv()) 
+success = load_dotenv(find_dotenv())
+if not success:
+    print("⚠️ Warning: Failed to load .env file!")
+    sys.exit(1)
+
 openai.api_key  = os.getenv('OPENAI_API_KEY')
 #model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 #gpt-4o
@@ -100,7 +105,6 @@ openai.api_key  = os.getenv('OPENAI_API_KEY')
 #o1
 #o3-mini
 model = ChatOpenAI(model="gpt-4o", temperature=0)
-
 
 def router_node(state: AgentState):
     """
@@ -165,14 +169,10 @@ def author_node(state: AgentState):
         HumanMessage(content=state['summary'])
     ]
     
+    response = model.invoke(messages, tools=[{"type": "web_search_preview"}])
+    msg = response.content[0]['text']
     
-    response = model.invoke(messages)
-    
-    #print("------------------------------------------")
-    #state["messages"][-1].pretty_print()
-    #print("------------------------------------------")
-    
-    return {"content": response.content,'iteration': i+1,"messages":response.content}
+    return {"content": msg,'iteration': i+1,"messages":msg}
 
 def critic_node(state: AgentState):
     """
@@ -289,7 +289,7 @@ def search_node(state: AgentState):
 
         
     response = agent_executor.run(state['task'])
-    
+
     #response = model.invoke(messages)
     
     return {"srch": response,"messages":response}
@@ -342,3 +342,4 @@ def process(query):
             message.pretty_print()
         #last_message = state["messages"][0]
         #return last_message.pretty_print()
+        
