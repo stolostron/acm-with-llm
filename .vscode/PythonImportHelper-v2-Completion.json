@@ -1,0 +1,2145 @@
+[
+    {
+        "label": "gradio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "gradio",
+        "description": "gradio",
+        "detail": "gradio",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "index",
+        "description": "index",
+        "isExtraImport": true,
+        "detail": "index",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_community.chat_models",
+        "description": "langchain_community.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_community.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_community.chat_models",
+        "description": "langchain_community.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_community.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_community.chat_models",
+        "description": "langchain_community.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain_community.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AnyMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "find_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts.chat",
+        "description": "langchain.prompts.chat",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts.chat",
+        "description": "langchain.prompts.chat",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts.chat",
+        "description": "langchain.prompts.chat",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.chat",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain.prompts.chat",
+        "description": "langchain.prompts.chat",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.chat",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities.sql_database",
+        "description": "langchain_community.utilities.sql_database",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities.sql_database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities.sql_database",
+        "description": "langchain_community.utilities.sql_database",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities.sql_database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities.sql_database",
+        "description": "langchain_community.utilities.sql_database",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities.sql_database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain_community.utilities.sql_database",
+        "description": "langchain_community.utilities.sql_database",
+        "isExtraImport": true,
+        "detail": "langchain_community.utilities.sql_database",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents.agent_types",
+        "description": "langchain.agents.agent_types",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_types",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents.agent_types",
+        "description": "langchain.agents.agent_types",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_types",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents.agent_types",
+        "description": "langchain.agents.agent_types",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_types",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents.agent_types",
+        "description": "langchain.agents.agent_types",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_types",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents.agent_types",
+        "description": "langchain.agents.agent_types",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_types",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "create_sql_agent",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "create_sql_agent",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "create_sql_agent",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "create_sql_agent",
+        "importPath": "langchain_community.agent_toolkits",
+        "description": "langchain_community.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain_community.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "create_history_aware_retriever",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "GraphCypherQAChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "create_history_aware_retriever",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "create_history_aware_retriever",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "GraphCypherQAChain",
+        "importPath": "langchain.chains",
+        "description": "langchain.chains",
+        "isExtraImport": true,
+        "detail": "langchain.chains",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "FewShotChatMessagePromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "StrOutputParser",
+        "importPath": "langchain_core.output_parsers",
+        "description": "langchain_core.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain_core.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "kgagent",
+        "description": "kgagent",
+        "isExtraImport": true,
+        "detail": "kgagent",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "sqlagent",
+        "description": "sqlagent",
+        "isExtraImport": true,
+        "detail": "sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAI",
+        "importPath": "langchain.llms",
+        "description": "langchain.llms",
+        "isExtraImport": true,
+        "detail": "langchain.llms",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "Neo4jGraph",
+        "importPath": "langchain.graphs",
+        "description": "langchain.graphs",
+        "isExtraImport": true,
+        "detail": "langchain.graphs",
+        "documentation": {}
+    },
+    {
+        "label": "Neo4jGraph",
+        "importPath": "langchain.graphs",
+        "description": "langchain.graphs",
+        "isExtraImport": true,
+        "detail": "langchain.graphs",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "ArgillaCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "StdOutCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "StdOutCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ArgillaCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "StdOutCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ArgillaCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "StdOutCallbackHandler",
+        "importPath": "langchain.callbacks",
+        "description": "langchain.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "argilla",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argilla",
+        "description": "argilla",
+        "detail": "argilla",
+        "documentation": {}
+    },
+    {
+        "label": "add_record",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "add_record",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "add_record",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "importPath": "callback",
+        "description": "callback",
+        "isExtraImport": true,
+        "detail": "callback",
+        "documentation": {}
+    },
+    {
+        "label": "ArgillaCallbackHandler",
+        "importPath": "langchain_community.callbacks",
+        "description": "langchain_community.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain_community.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ArgillaCallbackHandler",
+        "importPath": "langchain_community.callbacks",
+        "description": "langchain_community.callbacks",
+        "isExtraImport": true,
+        "detail": "langchain_community.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabase",
+        "importPath": "langchain.utilities",
+        "description": "langchain.utilities",
+        "isExtraImport": true,
+        "detail": "langchain.utilities",
+        "documentation": {}
+    },
+    {
+        "label": "create_sql_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "tool",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "SQLDatabaseToolkit",
+        "importPath": "langchain.agents.agent_toolkits",
+        "description": "langchain.agents.agent_toolkits",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent_toolkits",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypedDict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "Runner",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "RunConfig",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "RunContextWrapper",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "TResponseInputItem",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "trace",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "ItemHelpers",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "RunResult",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "Usage",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentHooks",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "RunContextWrapper",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "Agent",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "agents",
+        "description": "agents",
+        "isExtraImport": true,
+        "detail": "agents",
+        "documentation": {}
+    },
+    {
+        "label": "MCPServerManager",
+        "importPath": "genpilot.mcp.manager",
+        "description": "genpilot.mcp.manager",
+        "isExtraImport": true,
+        "detail": "genpilot.mcp.manager",
+        "documentation": {}
+    },
+    {
+        "label": "GRC_AUTHOR_PROMPT",
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "GRC_CRITIC_PROMPT",
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "KUBERNETES_ENGINEER_PROMPT",
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "EvaluationFeedback",
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "GrcAgentHooks",
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "yaml_applier_validator",
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "isExtraImport": true,
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "Console",
+        "importPath": "rich.console",
+        "description": "rich.console",
+        "isExtraImport": true,
+        "detail": "rich.console",
+        "documentation": {}
+    },
+    {
+        "label": "Markdown",
+        "importPath": "rich.markdown",
+        "description": "rich.markdown",
+        "isExtraImport": true,
+        "detail": "rich.markdown",
+        "documentation": {}
+    },
+    {
+        "label": "Rule",
+        "importPath": "rich.rule",
+        "description": "rich.rule",
+        "isExtraImport": true,
+        "detail": "rich.rule",
+        "documentation": {}
+    },
+    {
+        "label": "openai",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "openai",
+        "description": "openai",
+        "detail": "openai",
+        "documentation": {}
+    },
+    {
+        "label": "StateGraph",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "END",
+        "importPath": "langgraph.graph",
+        "description": "langgraph.graph",
+        "isExtraImport": true,
+        "detail": "langgraph.graph",
+        "documentation": {}
+    },
+    {
+        "label": "operator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "operator",
+        "description": "operator",
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "SqliteSaver",
+        "importPath": "langgraph.checkpoint.sqlite",
+        "description": "langgraph.checkpoint.sqlite",
+        "isExtraImport": true,
+        "detail": "langgraph.checkpoint.sqlite",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "add_messages",
+        "importPath": "langgraph.graph.message",
+        "description": "langgraph.graph.message",
+        "isExtraImport": true,
+        "detail": "langgraph.graph.message",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "display",
+        "importPath": "IPython.display",
+        "description": "IPython.display",
+        "isExtraImport": true,
+        "detail": "IPython.display",
+        "documentation": {}
+    },
+    {
+        "label": "CurveStyle",
+        "importPath": "langchain_core.runnables.graph",
+        "description": "langchain_core.runnables.graph",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables.graph",
+        "documentation": {}
+    },
+    {
+        "label": "MermaidDrawMethod",
+        "importPath": "langchain_core.runnables.graph",
+        "description": "langchain_core.runnables.graph",
+        "isExtraImport": true,
+        "detail": "langchain_core.runnables.graph",
+        "documentation": {}
+    },
+    {
+        "label": "process",
+        "importPath": "acm_agents",
+        "description": "acm_agents",
+        "isExtraImport": true,
+        "detail": "acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "archive.basebot.chat",
+        "description": "archive.basebot.chat",
+        "peekOfCode": "def main():\n\tgr.ChatInterface(chat_with_gpt).launch()\n# Entry point of the script\nif __name__ == \"__main__\":\n\tmain()",
+        "detail": "archive.basebot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_gpt",
+        "kind": 2,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "def chat_with_gpt(message, history):\n    print(\"Calling Index module \")\n    #qintent = route_question(llm=llm, query=message)\n    qintent = get_completion(message)\n    print(\"qintent: \", qintent)\n    if qintent == \"Changes\":\n        response= chat_with_gpt_search(message, history)\n        print(\"response from router: \", response)\n        print(type(response))\n        return response",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "route_question",
+        "kind": 2,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "def route_question(llm,query):\n    print(\"In route_question\")\n    return \"Changes\"\n    #return \"KG\"\ndef get_completion(message):\n    examples = [\n        {\"input\": \"where there any changes around policies y\", \"output\": \"Changes\"},\n        {\"input\": \"what changed around cluster x\", \"output\": \"Changes\"},\n        {\"input\": \"did anythig change around cluster or policy\", \"output\": \"Changes\"},\n        {\"input\": \"did anythig change around policy x in the last 2 days\", \"output\": \"Changes\"},",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "get_completion",
+        "kind": 2,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "def get_completion(message):\n    examples = [\n        {\"input\": \"where there any changes around policies y\", \"output\": \"Changes\"},\n        {\"input\": \"what changed around cluster x\", \"output\": \"Changes\"},\n        {\"input\": \"did anythig change around cluster or policy\", \"output\": \"Changes\"},\n        {\"input\": \"did anythig change around policy x in the last 2 days\", \"output\": \"Changes\"},\n        {\"input\": \"Which objects are related to policy x\", \"output\": \"KG\"},\n        {\"input\": \"what objects will be affected if I make changes to policy x\", \"output\": \"KG\"},\n        {\"input\": \"is there any relation between policy x and cluster y\", \"output\": \"KG\"},\n        {\"input\": \"what things will be affected if I make changes to policy x\", \"output\": \"KG\"},",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "get_completion",
+        "kind": 2,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "def get_completion(message):\n    prompt = ChatPromptTemplate.from_messages([\n    (\"system\", \"You are an expert at parsing the query and categorizing it to Changes or KG or Unknown. If the question is around changes to policies or clusters, categorize it as Changes. If the question is around relationships between entities, categorize it as KG. If the question is not clear or does not fall into any of the above categories, categorize it as Unknown. Just return the category like Changes or KG or Unknown. Nothing else is to be returned\"),\n    (\"user\", \"{input}\")\n    ])\n    output_parser = StrOutputParser()\n    chain = prompt | llm | output_parser\n    response = chain.invoke(input=message)\n    return response\n \"\"\"",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \n#openai.api_key  = os.getenv('OPENAI_API_KEY')\nAPI_KEY = os.getenv('OPENAI_API_KEY')\n#gpt-3.5-turbo\nllm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndef chat_with_gpt(message, history):\n    print(\"Calling Index module \")\n    #qintent = route_question(llm=llm, query=message)\n    qintent = get_completion(message)\n    print(\"qintent: \", qintent)",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\n#gpt-3.5-turbo\nllm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndef chat_with_gpt(message, history):\n    print(\"Calling Index module \")\n    #qintent = route_question(llm=llm, query=message)\n    qintent = get_completion(message)\n    print(\"qintent: \", qintent)\n    if qintent == \"Changes\":\n        response= chat_with_gpt_search(message, history)",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "archive.basebot.index",
+        "description": "archive.basebot.index",
+        "peekOfCode": "llm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndef chat_with_gpt(message, history):\n    print(\"Calling Index module \")\n    #qintent = route_question(llm=llm, query=message)\n    qintent = get_completion(message)\n    print(\"qintent: \", qintent)\n    if qintent == \"Changes\":\n        response= chat_with_gpt_search(message, history)\n        print(\"response from router: \", response)\n        print(type(response))",
+        "detail": "archive.basebot.index",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_gpt_kg",
+        "kind": 2,
+        "importPath": "archive.basebot.kgagent",
+        "description": "archive.basebot.kgagent",
+        "peekOfCode": "def chat_with_gpt_kg(message, history):\n    print(\"In chat with KG \")\n    graph = Neo4jGraph(\n        url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD\n    )\n    # Important\n    # Framing the questions is important.\n    # If question is: how does Host change it state from booted to acmmanaged state,\n    # and it sees a match of label/node Host, then it will try to filter on state.\n    # The state values cannot be hardcoded in the cypher query provided below.",
+        "detail": "archive.basebot.kgagent",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.basebot.kgagent",
+        "description": "archive.basebot.kgagent",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \n#openai.api_key  = os.getenv('OPENAI_API_KEY')\nAPI_KEY = os.getenv('OPENAI_API_KEY')\nNEO4J_PASSWORD=os.getenv('NEO4J_PASSWORD')\nNEO4J_URL=os.getenv('NEO4J_URL')\nNEO4J_DB=os.getenv('NEO4J_DB')\nprint(NEO4J_URL, NEO4J_PASSWORD)\ndef chat_with_gpt_kg(message, history):\n    print(\"In chat with KG \")\n    graph = Neo4jGraph(",
+        "detail": "archive.basebot.kgagent",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.basebot.kgagent",
+        "description": "archive.basebot.kgagent",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\nNEO4J_PASSWORD=os.getenv('NEO4J_PASSWORD')\nNEO4J_URL=os.getenv('NEO4J_URL')\nNEO4J_DB=os.getenv('NEO4J_DB')\nprint(NEO4J_URL, NEO4J_PASSWORD)\ndef chat_with_gpt_kg(message, history):\n    print(\"In chat with KG \")\n    graph = Neo4jGraph(\n        url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD\n    )",
+        "detail": "archive.basebot.kgagent",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_gpt_search",
+        "kind": 2,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "def chat_with_gpt_search(message, history):\n\tprint(\"In chat with DB \")\n\tprint(\"message: \", message)\n\tprint(\"history: \", history)\n\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.\n    Confirm the exact key names in the 'data' column before querying.",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \nAPI_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DBPASS')\nDATABASE=os.getenv('DATABASE')\nSCHEMA=os.getenv('SCHEMA')\n#gpt-3.5-turbo\nllm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndb = SQLDatabase.from_uri(\n    #f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", \n\tf\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema=SCHEMA",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DBPASS')\nDATABASE=os.getenv('DATABASE')\nSCHEMA=os.getenv('SCHEMA')\n#gpt-3.5-turbo\nllm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndb = SQLDatabase.from_uri(\n    #f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", \n\tf\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema=SCHEMA\n)",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "llm = ChatOpenAI(model=\"gpt-4-turbo-preview\", temperature=0)\ndb = SQLDatabase.from_uri(\n    #f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", \n\tf\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema=SCHEMA\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndef chat_with_gpt_search(message, history):\n\tprint(\"In chat with DB \")\n\tprint(\"message: \", message)\n\tprint(\"history: \", history)",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "db = SQLDatabase.from_uri(\n    #f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", \n\tf\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema=SCHEMA\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndef chat_with_gpt_search(message, history):\n\tprint(\"In chat with DB \")\n\tprint(\"message: \", message)\n\tprint(\"history: \", history)\n\tfinal_prompt = ChatPromptTemplate.from_messages([",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "toolkit",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "toolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndef chat_with_gpt_search(message, history):\n\tprint(\"In chat with DB \")\n\tprint(\"message: \", message)\n\tprint(\"history: \", history)\n\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tfinal_prompt",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.\n    Confirm the exact key names in the 'data' column before querying.\n    The types of resources are in the 'kind' key within the data column. \n    The answer set should be de-duplicated. Run the final query and get the answer. A recursive query on edges table will show all resource relationships. Limit fetching data from the tables at most to 100 rows.\n\tIf the query is regarding changes made to cluster or policy the local_policies table should be queried.\n\tIf the query returns no results, the user should be informed that the query returned no results.'''),",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\thistory_langchain_format",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\thistory_langchain_format = []\n\tfor human, ai in history[:3]:\n\t\thistory_langchain_format.append(HumanMessage(content=human))\n\t\thistory_langchain_format.append(AIMessage(content=ai))\n\tprompt = ChatPromptTemplate.from_messages([\n\tMessagesPlaceholder(variable_name=\"chat_history\"),\n\t(\"user\", \"{input}\"),\n\t(\"user\", \"Given the above conversation, generate a search query to look up in order to get information relevant to the conversation\")\n\t])\n\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tprompt",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tprompt = ChatPromptTemplate.from_messages([\n\tMessagesPlaceholder(variable_name=\"chat_history\"),\n\t(\"user\", \"{input}\"),\n\t(\"user\", \"Given the above conversation, generate a search query to look up in order to get information relevant to the conversation\")\n\t])\n\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)\n\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tagent_executor",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)\n\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\t#add_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tretriever_chain",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\t#add_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\tprint(\"response from search: \", response)",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tchat_history",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\t#add_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\tprint(\"response from search: \", response)\n\tprint(type(response))",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse",
+        "kind": 5,
+        "importPath": "archive.basebot.sqlagent",
+        "description": "archive.basebot.sqlagent",
+        "peekOfCode": "\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\t#add_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\tprint(\"response from search: \", response)\n\tprint(type(response))\n\treturn response['output']",
+        "detail": "archive.basebot.sqlagent",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "archive.chatbot.callback",
+        "description": "archive.chatbot.callback",
+        "peekOfCode": "def callback():\n    print(\"Initializing Argilla Callback!\")\n    dataset = rg.FeedbackDataset(\n    fields=[\n        rg.TextField(name=\"prompt\"),\n        rg.TextField(name=\"response\"),\n    ],\n    questions=[\n        rg.RatingQuestion(\n            name=\"response-rating\",",
+        "detail": "archive.chatbot.callback",
+        "documentation": {}
+    },
+    {
+        "label": "add_record",
+        "kind": 2,
+        "importPath": "archive.chatbot.callback",
+        "description": "archive.chatbot.callback",
+        "peekOfCode": "def add_record(prompt, response,dataset):\n    # Create a record object\n    record = rg.FeedbackRecord(\n        fields={\n            \"prompt\": prompt,\n            \"response\": response\n        })\n    dataset.add_records(record)\n    return record",
+        "detail": "archive.chatbot.callback",
+        "documentation": {}
+    },
+    {
+        "label": "chat_with_gpt",
+        "kind": 2,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "def chat_with_gpt(message, history):\n\tprint(\"In chat_with_gpt \")\n\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.\n    Confirm the exact key names in the 'data' column before querying.\n    The types of resources are in the 'kind' key within the data column. \n    The answer set should be de-duplicated. Run the final query and get the answer. A recursive query on edges table will show all resource relationships. Limit fetching data from the tables at most to 100 rows.'''),",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "def main():\n\tgr.ChatInterface(chat_with_gpt).launch()\n# Entry point of the script\nif __name__ == \"__main__\":\n\tmain()",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "llm",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "llm = ChatOpenAI(model=OPENAI_MODEL, temperature=0)#gpt-3.5-turbo\n_ = load_dotenv(find_dotenv()) \nAPI_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DB_PASS')\nDATABASE=os.getenv('DATABASE')\nSCHEMA=os.getenv('SCHEMA')\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema='search'\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \nAPI_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DB_PASS')\nDATABASE=os.getenv('DATABASE')\nSCHEMA=os.getenv('SCHEMA')\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema='search'\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndataset = callback()",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DB_PASS')\nDATABASE=os.getenv('DATABASE')\nSCHEMA=os.getenv('SCHEMA')\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema='search'\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndataset = callback()\nargilla_callback = ArgillaCallbackHandler(",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "db = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\", schema='search'\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "toolkit",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "toolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\ndataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\ncallbacks = [StdOutCallbackHandler(), argilla_callback]\n# Main function to interact with the ChatGPT API",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "dataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\ncallbacks = [StdOutCallbackHandler(), argilla_callback]\n# Main function to interact with the ChatGPT API\ndef chat_with_gpt(message, history):",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "argilla_callback",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "argilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\ncallbacks = [StdOutCallbackHandler(), argilla_callback]\n# Main function to interact with the ChatGPT API\ndef chat_with_gpt(message, history):\n\tprint(\"In chat_with_gpt \")",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "callbacks",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "callbacks = [StdOutCallbackHandler(), argilla_callback]\n# Main function to interact with the ChatGPT API\ndef chat_with_gpt(message, history):\n\tprint(\"In chat_with_gpt \")\n\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.\n    Confirm the exact key names in the 'data' column before querying.",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tfinal_prompt",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tfinal_prompt = ChatPromptTemplate.from_messages([\n    (\"system\", '''You are a helpful AI assistant expert in querying SQL Database to find answers to user's question about Kubernetes resources, clusters etc. \n    Utilize your kubernetes knowledge while answering questions. For ex: failing pods mean pods that are not running or have an error status like \"Pending\",\"Error\",\"Failed\",\"Terminating\",\"ImagePullBackOff\",\"CrashLoopBackOff\",\"RunContainerError\",\"ContainerCreating\" etc.\n    All resource details and key names for filters are in the jsonb column 'data' within the resources table - which is mostly 1 level deep. \n    This query will yield all the queryable properties - SELECT distinct jsonb_object_keys(jsonb_strip_nulls(\"data\")) AS \"prop\" FROM resources.\n    Confirm the exact key names in the 'data' column before querying.\n    The types of resources are in the 'kind' key within the data column. \n    The answer set should be de-duplicated. Run the final query and get the answer. A recursive query on edges table will show all resource relationships. Limit fetching data from the tables at most to 100 rows.'''),\n    (\"user\", \"{input}\")\n\t])",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\thistory_langchain_format",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\thistory_langchain_format = []\n\tfor human, ai in history[:3]:\n\t\thistory_langchain_format.append(HumanMessage(content=human))\n\t\thistory_langchain_format.append(AIMessage(content=ai))\n\tprompt = ChatPromptTemplate.from_messages([\n\tMessagesPlaceholder(variable_name=\"chat_history\"),\n\t(\"user\", \"{input}\"),\n\t(\"user\", \"Given the above conversation, generate a search query to look up in order to get information relevant to the conversation\")\n\t])\n\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tprompt",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tprompt = ChatPromptTemplate.from_messages([\n\tMessagesPlaceholder(variable_name=\"chat_history\"),\n\t(\"user\", \"{input}\"),\n\t(\"user\", \"Given the above conversation, generate a search query to look up in order to get information relevant to the conversation\")\n\t])\n\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)\n\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tagent_executor",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tagent_executor = create_sql_agent(llm=llm, toolkit=toolkit, verbose=True, agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION)\n\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\tadd_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tretriever_chain",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tretriever_chain = create_history_aware_retriever(llm, agent_executor, prompt)\n\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\tadd_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\treturn response['output']",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tchat_history",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tchat_history = history_langchain_format\n\t# Call the OpenAI API to get a response based on the user's prompt\n\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\tadd_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\treturn response['output']\n# Main loop to accept user input and call the ChatGPT API",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "\tresponse",
+        "kind": 5,
+        "importPath": "archive.chatbot.chat",
+        "description": "archive.chatbot.chat",
+        "peekOfCode": "\tresponse = retriever_chain.invoke({\n\t    \"chat_history\": chat_history,\n\t    \"input\": final_prompt.format(input=message)\n\t})\n\tadd_record(final_prompt.format(input=message), response['output'],dataset) #this works\n\t# Return the generated response\n\treturn response['output']\n# Main loop to accept user input and call the ChatGPT API\ndef main():\n\tgr.ChatInterface(chat_with_gpt).launch()",
+        "detail": "archive.chatbot.chat",
+        "documentation": {}
+    },
+    {
+        "label": "callback",
+        "kind": 2,
+        "importPath": "archive.src.callback",
+        "description": "archive.src.callback",
+        "peekOfCode": "def callback():\n    print(\"Initializing Argilla Callback!\")\n    dataset = rg.FeedbackDataset(\n    fields=[\n        rg.TextField(name=\"prompt\"),\n        rg.TextField(name=\"response\"),\n    ],\n    questions=[\n        rg.RatingQuestion(\n            name=\"response-rating\",",
+        "detail": "archive.src.callback",
+        "documentation": {}
+    },
+    {
+        "label": "add_record",
+        "kind": 2,
+        "importPath": "archive.src.callback",
+        "description": "archive.src.callback",
+        "peekOfCode": "def add_record(prompt, response,dataset):\n    # Create a record object\n    record = rg.FeedbackRecord(\n        fields={\n            \"prompt\": prompt,\n            \"response\": response\n        })\n    dataset.add_records(record)\n    return record",
+        "detail": "archive.src.callback",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \n#openai.api_key  = os.getenv('OPENAI_API_KEY')\nAPI_KEY = os.getenv('OPENAI_API_KEY')\n#DBPASS=os.getenv('DBPASS')\n#DATABASE=os.getenv('DATABASE')\nNEO4J_PASSWORD=os.getenv('NEO4J_PASSWORD')\nNEO4J_URL=os.getenv('NEO4J_URL')\nNEO4J_DB=os.getenv('NEO4J_DB')\nARGILLA_API_URL=os.getenv(\"ARGILLA_API_URL\"),\nARGILLA_API_KEY=os.getenv(\"ARGILLA_API_KEY\"),",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\n#DBPASS=os.getenv('DBPASS')\n#DATABASE=os.getenv('DATABASE')\nNEO4J_PASSWORD=os.getenv('NEO4J_PASSWORD')\nNEO4J_URL=os.getenv('NEO4J_URL')\nNEO4J_DB=os.getenv('NEO4J_DB')\nARGILLA_API_URL=os.getenv(\"ARGILLA_API_URL\"),\nARGILLA_API_KEY=os.getenv(\"ARGILLA_API_KEY\"),\nprint(NEO4J_URL, NEO4J_PASSWORD)\ndataset = callback()",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "dataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\n#callbacks = [StdOutCallbackHandler(), argilla_callback]\ncallbacks = [ argilla_callback]\ngraph = Neo4jGraph(",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "argilla_callback",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "argilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\n#callbacks = [StdOutCallbackHandler(), argilla_callback]\ncallbacks = [ argilla_callback]\ngraph = Neo4jGraph(\n    url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "#callbacks",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "#callbacks = [StdOutCallbackHandler(), argilla_callback]\ncallbacks = [ argilla_callback]\ngraph = Neo4jGraph(\n    url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD\n)\n# Important\n# Framing the questions is important.\n# If question is: how does Host change it state from booted to acmmanaged state,\n# and it sees a match of label/node Host, then it will try to filter on state.\n# The state values cannot be hardcoded in the cypher query provided below.",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "callbacks",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "callbacks = [ argilla_callback]\ngraph = Neo4jGraph(\n    url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD\n)\n# Important\n# Framing the questions is important.\n# If question is: how does Host change it state from booted to acmmanaged state,\n# and it sees a match of label/node Host, then it will try to filter on state.\n# The state values cannot be hardcoded in the cypher query provided below.\n# It substitutes the state value with the variable name dynamically",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "graph",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "graph = Neo4jGraph(\n    url= NEO4J_URL, username=\"neo4j\", password=NEO4J_PASSWORD\n)\n# Important\n# Framing the questions is important.\n# If question is: how does Host change it state from booted to acmmanaged state,\n# and it sees a match of label/node Host, then it will try to filter on state.\n# The state values cannot be hardcoded in the cypher query provided below.\n# It substitutes the state value with the variable name dynamically\nCYPHER_GENERATION_TEMPLATE = \"\"\"Task:Generate Cypher statement to query a graph database.",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "CYPHER_GENERATION_TEMPLATE",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "CYPHER_GENERATION_TEMPLATE = \"\"\"Task:Generate Cypher statement to query a graph database.\nInstructions:\nUse only the provided relationship types and properties in the schema.\nDo not use any other relationship types or properties that are not provided.\nIgnore cases of the names or nouns provided in the question.\nWhen a noun is provided, use the noun as a variable and get the node name adjusting for case if needed.\nWhen a name is provided, use the name as a variable but extract the labels from the schema and use that as the node labels.\nWhen a noun is provided, use the noun as a variable and extract the labels from the schema and use that as the node labels.\nWhen a relationship type is provided, use the relationship type as a variable and extract the relationship type from the schema and use that as the relationship type.\nWhen a property is provided, use the property as a variable and extract the property from the schema and use that as the property.",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "CYPHER_GENERATION_PROMPT",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "CYPHER_GENERATION_PROMPT = PromptTemplate(\n    input_variables=[\"schema\", \"question\"], template=CYPHER_GENERATION_TEMPLATE\n)\nchain = GraphCypherQAChain.from_llm(\n    ChatOpenAI(temperature=0), graph=graph, verbose=True,validate_cypher=True,\n    cypher_prompt=CYPHER_GENERATION_PROMPT\n)\nif \"messages\" not in st.session_state or st.sidebar.button(\"Clear message history\"):\n    st.session_state[\"messages\"] = [{\"role\": \"assistant\", \"content\": \"How can I help you?\"}]\nfor msg in st.session_state.messages:",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "chain",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "chain = GraphCypherQAChain.from_llm(\n    ChatOpenAI(temperature=0), graph=graph, verbose=True,validate_cypher=True,\n    cypher_prompt=CYPHER_GENERATION_PROMPT\n)\nif \"messages\" not in st.session_state or st.sidebar.button(\"Clear message history\"):\n    st.session_state[\"messages\"] = [{\"role\": \"assistant\", \"content\": \"How can I help you?\"}]\nfor msg in st.session_state.messages:\n    st.chat_message(msg[\"role\"]).write(msg[\"content\"])\nuser_query = st.chat_input(placeholder=\"Are you looking for something in the Knowledge Graph?\")\nif user_query:",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "user_query",
+        "kind": 5,
+        "importPath": "archive.src.kg_chat",
+        "description": "archive.src.kg_chat",
+        "peekOfCode": "user_query = st.chat_input(placeholder=\"Are you looking for something in the Knowledge Graph?\")\nif user_query:\n    st.session_state.messages.append({\"role\": \"user\", \"content\": user_query})\n    st.chat_message(\"user\").write(user_query)\n    with st.chat_message(\"assistant\"):\n        #st_cb = StreamlitCallbackHandler(st.container())\n        #response = agent.run(user_query, callbacks=[st_cb])\n        response = chain.run(user_query,callbacks=callbacks)\n        st.session_state.messages.append({\"role\": \"assistant\", \"content\": response})\n        #add_record(user_query, response,dataset) #this works",
+        "detail": "archive.src.kg_chat",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \n#openai.api_key  = os.getenv('OPENAI_API_KEY')\nAPI_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DBPASS')\nDATABASE=os.getenv('DATABASE')\n#print(DBPASS, DATABASE)\ndataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "API_KEY = os.getenv('OPENAI_API_KEY')\nDBPASS=os.getenv('DBPASS')\nDATABASE=os.getenv('DATABASE')\n#print(DBPASS, DATABASE)\ndataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "dataset",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "dataset = callback()\nargilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\ncallbacks = [StdOutCallbackHandler(), argilla_callback]\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\",",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "argilla_callback",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "argilla_callback = ArgillaCallbackHandler(\n    dataset_name=\"langchain-dataset\",\n    workspace_name=\"admin\",\n    api_url=os.getenv('ARGILLA_API_URL'),\n    api_key=os.getenv('ARGILLA_API_KEY')\n)\ncallbacks = [StdOutCallbackHandler(), argilla_callback]\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\",\n)",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "callbacks",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "callbacks = [StdOutCallbackHandler(), argilla_callback]\ndb = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\",\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\nagent = create_sql_agent(\n    llm=OpenAI(temperature=0),\n    toolkit=toolkit,\n    verbose=True,\n    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "db = SQLDatabase.from_uri(\n    f\"postgresql+psycopg2://postgres:{DBPASS}@localhost:5432/{DATABASE}\",\n)\ntoolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\nagent = create_sql_agent(\n    llm=OpenAI(temperature=0),\n    toolkit=toolkit,\n    verbose=True,\n    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,\n    #callbacks=callbacks,",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "toolkit",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "toolkit = SQLDatabaseToolkit(db=db, llm=OpenAI(temperature=0))\nagent = create_sql_agent(\n    llm=OpenAI(temperature=0),\n    toolkit=toolkit,\n    verbose=True,\n    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,\n    #callbacks=callbacks,\n)\nif \"messages\" not in st.session_state or st.sidebar.button(\"Clear message history\"):\n    st.session_state[\"messages\"] = [{\"role\": \"assistant\", \"content\": \"How can I help you?\"}]",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "agent",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "agent = create_sql_agent(\n    llm=OpenAI(temperature=0),\n    toolkit=toolkit,\n    verbose=True,\n    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,\n    #callbacks=callbacks,\n)\nif \"messages\" not in st.session_state or st.sidebar.button(\"Clear message history\"):\n    st.session_state[\"messages\"] = [{\"role\": \"assistant\", \"content\": \"How can I help you?\"}]\nfor msg in st.session_state.messages:",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "user_query",
+        "kind": 5,
+        "importPath": "archive.src.search_chat",
+        "description": "archive.src.search_chat",
+        "peekOfCode": "user_query = st.chat_input(placeholder=\"Are you looking for something in the fleet?\")\n#callback()\nif user_query:\n    st.session_state.messages.append({\"role\": \"user\", \"content\": user_query})\n    st.chat_message(\"user\").write(user_query)\n    with st.chat_message(\"assistant\"):\n        #st_cb = StreamlitCallbackHandler(st.container())\n        #response = agent.run(user_query, callbacks=[st_cb])\n        response = agent.run(user_query,callbacks=callbacks) #this works\n        st.session_state.messages.append({\"role\": \"assistant\", \"content\": response})",
+        "detail": "archive.src.search_chat",
+        "documentation": {}
+    },
+    {
+        "label": "EvaluationFeedback",
+        "kind": 6,
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "peekOfCode": "class EvaluationFeedback:\n    feedback: str\n    score: Literal[\"pass\", \"needs_improvement\", \"fail\"]\nclass GrcAgentHooks(AgentHooks):\n    def __init__(self, display_name: str):\n        self.event_counter = 0\n        self.display_name = display_name\n        self.console = Console()\n    def _usage_to_str(self, usage: Usage) -> str:\n        return f\"{usage.requests} requests, {usage.input_tokens} input tokens, {usage.output_tokens} output tokens, {usage.total_tokens} total tokens\"",
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "GrcAgentHooks",
+        "kind": 6,
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "peekOfCode": "class GrcAgentHooks(AgentHooks):\n    def __init__(self, display_name: str):\n        self.event_counter = 0\n        self.display_name = display_name\n        self.console = Console()\n    def _usage_to_str(self, usage: Usage) -> str:\n        return f\"{usage.requests} requests, {usage.input_tokens} input tokens, {usage.output_tokens} output tokens, {usage.total_tokens} total tokens\"\n    def _print_event(self, message: str, style: str = \"bold white\") -> None:\n        \"\"\"Helper function to print formatted event messages.\"\"\"\n        self.console.print(Markdown(message), style=style)",
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "yaml_applier_validator",
+        "kind": 2,
+        "importPath": "src.grc.grc_hook",
+        "description": "src.grc.grc_hook",
+        "peekOfCode": "def yaml_applier_validator(func_args):\n    # if tool_name != \"yaml_applier\":\n    #     return\n    if \"yaml\" not in func_args:\n        return \"yaml key is required\"\n    cluster = \"default\"\n    if \"cluster\" in func_args:\n        cluster = func_args[\"cluster\"]\n    if \"yaml\" in func_args and not isinstance(func_args[\"yaml\"], str):\n        return \"yaml value must be a string\"",
+        "detail": "src.grc.grc_hook",
+        "documentation": {}
+    },
+    {
+        "label": "GRC_AUTHOR_PROMPT",
+        "kind": 5,
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "peekOfCode": "GRC_AUTHOR_PROMPT = \"\"\"You are an expert at writing GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou have in-depth knowledge of the Custom Resource Definitions (CRDs) under apiVersion: policy.open-cluster-management.io, especially the Policy CRD - policies.policy.open-cluster-management.io, and understand how to use them effectively.\nYou generate a Policy based on the user's input. If there is any feedback provided, use it to improve it!\nPolicy Example:\n```yaml\napiVersion: policy.open-cluster-management.io/v1\nkind: Policy\nmetadata:\n  name: ...",
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "GRC_CRITIC_PROMPT",
+        "kind": 5,
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "peekOfCode": "GRC_CRITIC_PROMPT = \"\"\"You are an expert Critic at testing GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io, especially the Policy CRD - policies.policy.open-cluster-management.io, and know how to use them.\nGiven a policy yaml, and decide if it's good enough. - just judge the current yaml, not add new one!\nIf it's not good enough, you can find out the flaws in it and suggest the changes to be made point by point.\nNever give it a pass on the first try. \nOnce it up to 3 times, please give it to pass!\n\"\"\"\nKUBERNETES_ENGINEER_PROMPT = \"\"\"You are an kubernetes Engineer to operate GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). ",
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "KUBERNETES_ENGINEER_PROMPT",
+        "kind": 5,
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "peekOfCode": "KUBERNETES_ENGINEER_PROMPT = \"\"\"You are an kubernetes Engineer to operate GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.\nYou can apply the resource into the current cluster. Don't apply with a yaml file, just put the contain as a str\n\"\"\"\nGRC_EVALUATOR_PROMPT = \"\"\"You are an expert Evaluator of GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.",
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "GRC_EVALUATOR_PROMPT",
+        "kind": 5,
+        "importPath": "src.grc.grc_prompt",
+        "description": "src.grc.grc_prompt",
+        "peekOfCode": "GRC_EVALUATOR_PROMPT = \"\"\"You are an expert Evaluator of GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.\nRate the given content on a scale of 0-100 based on: \n    - Technical accuracy (50 points) \n    - Completeness (50 points) \nProvide only the numerical score as your response.\n-------\n{content}\"\"\"",
+        "detail": "src.grc.grc_prompt",
+        "documentation": {}
+    },
+    {
+        "label": "AgentState",
+        "kind": 6,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "class AgentState(TypedDict):\n    #messages: Annotated[list[AnyMessage], operator.add]\n    messages: Annotated[Sequence[BaseMessage], add_messages]\n    task: str\n    route:str\n    content: str\n    iteration: int\n    score:int\n    summary: str\n    pr: str",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "router_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def router_node(state: AgentState):\n    \"\"\"\n    Looks at the user question and decides which agent can handle the job.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"\n    messages = [\n        SystemMessage(content=ROUTER_PROMPT),",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "next_step",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def next_step(state: AgentState):\n    \"\"\"\n    This is a conditional edge handler\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"    \n    if  state['route'] == 'author_node' :\n        return 'author'",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "author_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def author_node(state: AgentState):\n    \"\"\"\n    Helps to create a ACM Policy. And based on the feedback it can improve the policy.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"\n    i = state['iteration']\n    print( \"Iteration number: \",state['iteration']+1)",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "critic_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def critic_node(state: AgentState):\n    \"\"\"\n    Helps to review a ACM Policy and give feedback for improvement.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"    \n    content = state['content']  \n    messages = [",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "scorer_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def scorer_node(state: AgentState):\n    \"\"\"\n    Helps to score a ACM Policy. This is a stub at the moment.\n    This needs to be worked on.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"  \n    content = state['content']  ",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "pr_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def pr_node(state: AgentState):\n    \"\"\"\n    Send a PR for the code being generated. This is just a stub right now.\n    Implementation is missing\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"\n    content = state['content']  ",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "proceed",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def proceed(state: AgentState):\n    \"\"\"\n    This is a conditional edge handler.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\" \n    if  state['iteration']>3 :\n        return False",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "search_node",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def search_node(state: AgentState):\n    \"\"\"\n    Helps to handle a ACM Search query. As of now it needs a local DB.\n    But we can easily change that.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"    \n    DBUSER=os.getenv('DBUSER')",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "process",
+        "kind": 2,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "def process(query):\n    builder = StateGraph(AgentState)\n    builder.add_node(\"router\", router_node)\n    builder.add_node(\"author\", author_node)\n    builder.add_node(\"critic\", critic_node)\n    builder.add_node(\"scorer\", scorer_node)\n    builder.add_node(\"pullreq\", pr_node)\n    builder.add_node(\"search\", search_node)\n    builder.set_entry_point(\"router\")\n    builder.add_conditional_edges(",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "ROUTER_PROMPT",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "ROUTER_PROMPT = \"\"\"You are an expert engineer of Red Hat Advanced Cluster Management (RHACM or ACM). \nYou will see the question and decide how to route it. \nIf the question is about creating a ACM GRC Policy, then it will routed to the author_node.\nAny other questions should be routed to the search_node. \nTherefore you will return one of the choices mentioned below as per your understanding. \n- author_node \n- search_node. \nDo not attempt to return any other things. \"\"\"\nAUTHOR_PROMPT = \"\"\"You are an expert at writing GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). ",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHOR_PROMPT",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "AUTHOR_PROMPT = \"\"\"You are an expert at writing GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.\nYou can write a ACM policy yaml given a task as below \nIf a user gives you some feedback on the yaml you have produced,\nprocess it, think through it and improve the yaml. \nAnd clarify each of the changes that you have made to improve.\n------\n{content}\"\"\"",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "CRITIC_PROMPT",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "CRITIC_PROMPT = \"\"\"You are an expert at testing GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.\nGiven a policy yaml as below, you can find out the flaws in it and suggest the changes to be made point by point.\n------\n{content}\"\"\"\nSCORER_PROMPT = \"\"\"You are an expert evaluator of GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io ",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "SCORER_PROMPT",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "SCORER_PROMPT = \"\"\"You are an expert evaluator of GRC (governance risk and compliance) Policies \nfor Red Hat Advanced Cluster Management (RHACM or ACM). \nYou are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io \nand know how to use them.\nRate the given content on a scale of 0-100 based on: \n    - Technical accuracy (50 points) \n    - Completeness (50 points) \nProvide only the numerical score as your response.\n-------\n{content}\"\"\"",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "PR_PROMPT",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "PR_PROMPT = \"\"\"In the content provided to you, there is a  GRC (governance risk and compliance) Policy \nfor Red Hat Advanced Cluster Management (RHACM or ACM) definition buried.\nJust output that in a nicely formatted fashion\n------\n{content}\"\"\"\nroot_nodes = ['author','search']\n_ = load_dotenv(find_dotenv()) \nopenai.api_key  = os.getenv('OPENAI_API_KEY')\n#model = ChatOpenAI(model=\"gpt-3.5-turbo\", temperature=0)\n#gpt-4o",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "root_nodes",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "root_nodes = ['author','search']\n_ = load_dotenv(find_dotenv()) \nopenai.api_key  = os.getenv('OPENAI_API_KEY')\n#model = ChatOpenAI(model=\"gpt-3.5-turbo\", temperature=0)\n#gpt-4o\n#gpt-4o-mini\n#gpt-3.5-turbo\n#o1\n#o3-mini\nmodel = ChatOpenAI(model=\"gpt-4o\", temperature=0)",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "_",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "_ = load_dotenv(find_dotenv()) \nopenai.api_key  = os.getenv('OPENAI_API_KEY')\n#model = ChatOpenAI(model=\"gpt-3.5-turbo\", temperature=0)\n#gpt-4o\n#gpt-4o-mini\n#gpt-3.5-turbo\n#o1\n#o3-mini\nmodel = ChatOpenAI(model=\"gpt-4o\", temperature=0)\ndef router_node(state: AgentState):",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "#model",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "#model = ChatOpenAI(model=\"gpt-3.5-turbo\", temperature=0)\n#gpt-4o\n#gpt-4o-mini\n#gpt-3.5-turbo\n#o1\n#o3-mini\nmodel = ChatOpenAI(model=\"gpt-4o\", temperature=0)\ndef router_node(state: AgentState):\n    \"\"\"\n    Looks at the user question and decides which agent can handle the job.",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "src.acm_agents",
+        "description": "src.acm_agents",
+        "peekOfCode": "model = ChatOpenAI(model=\"gpt-4o\", temperature=0)\ndef router_node(state: AgentState):\n    \"\"\"\n    Looks at the user question and decides which agent can handle the job.\n    Args:\n        state: The Agent State\n    Returns:\n        Updates the Agent State\n    \"\"\"\n    messages = [",
+        "detail": "src.acm_agents",
+        "documentation": {}
+    },
+    {
+        "label": "respond",
+        "kind": 2,
+        "importPath": "src.acm_chat",
+        "description": "src.acm_chat",
+        "peekOfCode": "def respond(response):\n    \"\"\"\n    Display a streaming response from a generator without line breaks between parts.\n    This is a hack and there is a better way to do it\n    Args:\n        response_generator: A generator that yields parts of the response\n    \"\"\"\n    for part in response:\n        sys.stdout.write(part)\n        sys.stdout.flush()  # Ensure output is displayed immediately",
+        "detail": "src.acm_chat",
+        "documentation": {}
+    },
+    {
+        "label": "help",
+        "kind": 2,
+        "importPath": "src.acm_chat",
+        "description": "src.acm_chat",
+        "peekOfCode": "def help():\n    print(\"These are some of the things I can do today. This will evolve over time \\n\")\n    print(\"1. Create an ACM GRC Policy. So you can ask me:\")\n    print(\"     Create a ACM policy to create a namespace called lightspeed\")\n    print(\"2. Or ask a question that can be answered about resources in the fleet that ACM Manages.\")\n    print(\"As of now, I can only answer from data that is in ACM Search - but that will change soon\")\n    print(\"So you can ask me:\")\n    print(\"     How many policies are there in the current ACM installation\")\n    print(\"     How many alert-manager pods are running\")\n    print(\"     How many pods are not running or completed\")",
+        "detail": "src.acm_chat",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.acm_chat",
+        "description": "src.acm_chat",
+        "peekOfCode": "def main():\n    print(\"=======================================================\")\n    print(\"Welcome to the world of the interactive ACM Agent!\")\n    print(\"Type 'help' to see the commands that you can run today\")\n    print(\"Type 'quit' to exit\")\n    print(\"=======================================================\")\n    while True:\n        # Display prompt and wait for input\n        user_input = input(\"\\n> \")\n        if user_input.lower() == \"quit\":",
+        "detail": "src.acm_chat",
+        "documentation": {}
+    }
+]
