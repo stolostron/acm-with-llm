@@ -15,9 +15,17 @@ from agents import (
 )
 
 from dotenv import load_dotenv
-from genpilot.mcp.manager import MCPServerManager
-from src.grc.grc_prompt import GRC_AUTHOR_PROMPT, GRC_CRITIC_PROMPT, KUBERNETES_ENGINEER_PROMPT
-from src.grc.grc_hook import EvaluationFeedback, GrcAgentHooks, yaml_applier_validator
+from litemcp.manager import MCPServerManager
+from framework.openai.grc.grc_hook import (
+    EvaluationFeedback,
+    GrcAgentHooks,
+    yaml_applier_validator,
+)
+from framework.openai.grc.grc_prompt import (
+    GRC_AUTHOR_PROMPT,
+    GRC_CRITIC_PROMPT,
+    KUBERNETES_ENGINEER_PROMPT,
+)
 
 
 load_dotenv()
@@ -31,7 +39,7 @@ async def main():
     async with MCPServerManager(sys.argv[1]) as server_manager:
         server_manager.register_validator("yaml_applier", yaml_applier_validator)
 
-        mcp_server_tools = await server_manager.function_tools()
+        mcp_server_tools = await server_manager.agent_sdk_tools()
 
         engineer = Agent(
             name="Kubernetes Engineer",
@@ -50,7 +58,7 @@ async def main():
 
         author = Agent(
             name="Author",
-            instructions=GRC_AUTHOR_PROMPT,  
+            instructions=GRC_AUTHOR_PROMPT,
             hooks=GrcAgentHooks("Author"),
         )
         print()
@@ -109,5 +117,5 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 """
-$ python framework/openai/grc/grc_chat.py ./framework/openai/grc/mcp-config.json
+$ python -m framework.openai.grc.grc_chat framework/openai/grc/mcp-config.json
 """
