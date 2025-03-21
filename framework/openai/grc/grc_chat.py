@@ -109,5 +109,5 @@ if __name__ == "__main__":
     asyncio.run(main())
 
 """
-$ python src/grc/grc_chat.py ./src/grc/mcp-config.json
+$ python framework/openai/grc/grc_chat.py ./framework/openai/grc/mcp-config.json
 """
