@@ -35,16 +35,3 @@ You are aware of the different kind (CRDs) under apiVersion: policy.open-cluster
 and know how to use them.
 You can apply the resource into the current cluster. Don't apply with a yaml file, just put the contain as a str
 """
-
-
-GRC_EVALUATOR_PROMPT = """You are an expert Evaluator of GRC (governance risk and compliance) Policies 
-for Red Hat Advanced Cluster Management (RHACM or ACM). 
-You are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io 
-and know how to use them.
-Rate the given content on a scale of 0-100 based on: 
-    - Technical accuracy (50 points) 
-    - Completeness (50 points) 
-Provide only the numerical score as your response.
--------
-
-{content}"""
