@@ -53,6 +53,57 @@ AUTHOR_PROMPT = """You are an expert at writing GRC (governance risk and complia
 for Red Hat Advanced Cluster Management (RHACM or ACM). 
 You are aware of the different kind (CRDs) under apiVersion: policy.open-cluster-management.io 
 and know how to use them.
+
+When a user asks about `OperatorPolicy`, always refer strictly to the `OperatorPolicy` resource as defined in the Open Cluster Management CRD at
+https://raw.githubusercontent.com/stolostron/config-policy-controller/refs/tags/v{acm_released_version}.0/deploy/crds/policy.open-cluster-management.io_operatorpolicies.yaml
+Follow the example to ensure accuracy and alignment.
+```yaml
+apiVersion: policy.open-cluster-management.io/v1beta1
+kind: OperatorPolicy
+metadata:
+  name: example-operator
+  labels:
+    policy.open-cluster-management.io/cluster-name: "managed"
+    policy.open-cluster-management.io/cluster-namespace: "managed"
+spec:
+  remediationAction: enforce # optional
+  severity: medium # optional
+  complianceType: musthave # required
+  complianceConfig: # optional
+    catalogSourceUnhealthy: Compliant
+    DeploymentsUnavailable: NonCompliant
+    UpgradesAvailable: Compliant
+    DeprecationsPresent: Compliant
+  operatorGroup: # optional
+    name: grc-dep-group
+    namespace: operator-policy-testns
+    targetNamespaces:
+      - operator-policy-testns
+  subscription: # required
+    name: example-operator
+    namespace: grc-dep
+    channel: alpha
+    source: grc-mock-source
+    sourceNamespace: olm
+  upgradeApproval: Automatic # required
+  removalBehavior: # optional
+    operatorGroups: DeleteIfUnused
+    subscriptions: Delete
+    clusterServiceVersions: Delete
+    customResourceDefinitions: Delete
+  versions: # optional
+    - example-operator.v0.36.0
+
+```
+
+- Do not use `ConfigurationPolicy` or any other policy types.
+- Ensure compliance with the structure outlined in the CRD.
+- Use the correct field names as defined in the CRD, such as `operatorGroup`, `subscription`, `remediationAction`, and `complianceType`.
+
+If any discrepancies arise between the CRD and examples, revise and adjust the response accordingly.
+Ensure that the OperatorPolicy includes all required fields, especially upgradeApproval, and subscription.
+Do not mix in outdated structures, and always ensure that the response aligns with the latest specification.
+
 You can write a ACM policy yaml given a task as below 
 If a user gives you some feedback on the yaml you have produced,
 process it, think through it and improve the yaml. 
@@ -97,7 +148,8 @@ if not success:
     print("⚠️ Warning: Failed to load .env file!")
     sys.exit(1)
 
-openai.api_key  = os.getenv('OPENAI_API_KEY')
+acm_released_version = os.getenv('ACM_RELEASED_VERSION')
+openai.api_key = os.getenv('OPENAI_API_KEY')
 #model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 #gpt-4o
 #gpt-4o-mini
@@ -165,7 +217,7 @@ def author_node(state: AgentState):
     print( "Iteration number: ",state['iteration']+1)
     
     messages = [
-        SystemMessage(content=AUTHOR_PROMPT.format(content=state['task'])),
+        SystemMessage(content=AUTHOR_PROMPT.format(content=state['task'], acm_released_version=acm_released_version)),
         HumanMessage(content=state['summary'])
     ]
     
