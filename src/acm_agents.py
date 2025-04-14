@@ -22,6 +22,7 @@ from langchain_community.agent_toolkits import SQLDatabaseToolkit, create_sql_ag
 from IPython.display import Image, display
 from langchain_core.runnables.graph import CurveStyle, MermaidDrawMethod
 from langchain_openai import ChatOpenAI
+from langchain_community.document_loaders import DirectoryLoader
 
 
 
@@ -108,6 +109,22 @@ You can write a ACM policy yaml given a task as below
 If a user gives you some feedback on the yaml you have produced,
 process it, think through it and improve the yaml. 
 And clarify each of the changes that you have made to improve.
+
+You are an expert in writing Kubernetes YAML, with a specialization in Red Hat Advanced Cluster Management (ACM) policies.
+
+If the following YAML is an ACM Policy resource, review and improve it by:
+
+- Fixing syntax errors
+- Improving formatting and consistency
+- Ensuring it conforms to the ACM Policy CustomResourceDefinition (CRD)
+- Preserving the original intent and structure
+
+Return only the corrected YAML.
+
+YAML:
+```yaml
+{yaml_content}
+```
 ------
 
 {content}"""
@@ -157,6 +174,12 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 #o1
 #o3-mini
 model = ChatOpenAI(model="gpt-4o", temperature=0)
+
+loader = DirectoryLoader(
+    path="load_files",
+)
+
+yamlFiles = loader.load()
 
 def router_node(state: AgentState):
     """
@@ -217,7 +240,7 @@ def author_node(state: AgentState):
     print( "Iteration number: ",state['iteration']+1)
     
     messages = [
-        SystemMessage(content=AUTHOR_PROMPT.format(content=state['task'], acm_released_version=acm_released_version)),
+        SystemMessage(content=AUTHOR_PROMPT.format(content=state['task'], acm_released_version=acm_released_version, yaml_content=yamlFiles)),
         HumanMessage(content=state['summary'])
     ]
     

@@ -32,3 +32,9 @@ Populate the database by importing from [here](./data/search_load.sql) or runnin
     python3 src/acm_chat.py
     ```
 
+## 🛠️ How to Fix Your Uploaded ACM Policy using LLM
+
+1. Place your ACM policy YAML file in the `./load_files` directory.
+2. Ask the ACM LLM to review and fix it.  
+   **Example prompt:**  
+   `"Can you fix my uploaded policy?"`
