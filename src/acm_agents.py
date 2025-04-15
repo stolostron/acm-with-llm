@@ -179,7 +179,14 @@ loader = DirectoryLoader(
     path="load_files",
 )
 
-yamlFiles = loader.load()
+try:
+    yamlFiles = loader.load()
+except FileNotFoundError as e:
+    print(f"[Info] No files found in directory: '{loader.path}'. Skipping load.")
+    yamlFiles = []
+except Exception as e:
+    print(f"An unexpected error occurred while loading files from '{loader.path}': {e}. No files were loaded.")
+    yamlFiles = []
 
 def router_node(state: AgentState):
     """
