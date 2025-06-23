@@ -31,7 +31,38 @@ Populate the database by importing from [here](./data/search_load.sql) or runnin
     ```
     python3 src/acm_chat.py
     ```
+---
 
+## Using Ollama for Local LLM Iteration
+
+> 💡 **Note:** If Ollama is not installed or running, the chatbot will fall back to a base model.
+
+You can alternate between OpenAI and local LLMs (like Llama3) using [Ollama](https://ollama.com/).
+
+1. **Install Ollama**
+    - On macOS:
+      ```bash
+      brew install ollama
+      ```
+    - Or follow [Ollama install instructions](https://ollama.com/download).
+
+2. **Start a model**
+    ```bash
+    ollama run llama3
+    ```
+    - Ollama should run on port **11434** by default.
+
+3. **Change Ollama model (optional)**
+    - Get model name
+      ```
+      curl http://localhost:11434/api/tags
+      ```
+    - Edit `.env`:
+      ```
+      OLLAMA_MODEL=mistral
+      ```
+
+---
 ## 🛠️ How to Fix Your Uploaded ACM Policy using LLM
 
 1. Place your ACM policy YAML file in the `./load_files` directory.

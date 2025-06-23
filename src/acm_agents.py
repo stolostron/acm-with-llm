@@ -1,6 +1,7 @@
 import os
 import sys
 import openai
+import requests
 from dotenv import load_dotenv, find_dotenv
 
 from langgraph.graph import StateGraph, END
@@ -23,8 +24,7 @@ from IPython.display import Image, display
 from langchain_core.runnables.graph import CurveStyle, MermaidDrawMethod
 from langchain_openai import ChatOpenAI
 from langchain_community.document_loaders import DirectoryLoader
-
-
+from langchain_community.chat_models import ChatOllama
 
 
 
@@ -167,6 +167,7 @@ if not success:
 
 acm_released_version = os.getenv('ACM_RELEASED_VERSION')
 openai.api_key = os.getenv('OPENAI_API_KEY')
+ollama_model = os.getenv('OLLAMA_MODEL', 'llama3:latest')
 #model = ChatOpenAI(model="gpt-3.5-turbo", temperature=0)
 #gpt-4o
 #gpt-4o-mini
@@ -174,6 +175,8 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 #o1
 #o3-mini
 model = ChatOpenAI(model="gpt-4o", temperature=0)
+
+ollama = ChatOllama(model=ollama_model)
 
 loader = DirectoryLoader(
     path="load_files",
@@ -251,9 +254,16 @@ def author_node(state: AgentState):
         HumanMessage(content=state['summary'])
     ]
     
-    response = model.invoke(messages, tools=[{"type": "web_search_preview"}])
-    msg = response.content[0]['text']
-    
+    msg = ""
+
+    if (i+1) % 2 == 0 and is_ollama_model_running(ollama_model):
+        print("\033[91mIteration with Ollama...\033[0m")
+        response = ollama.invoke(messages)
+        msg = response.content
+    else:
+        response = model.invoke(messages, tools=[{"type": "web_search_preview"}])
+        msg = response.content[0]['text']
+
     return {"content": msg,'iteration': i+1,"messages":msg}
 
 def critic_node(state: AgentState):
@@ -328,7 +338,7 @@ def proceed(state: AgentState):
     Returns:
         Updates the Agent State
     """ 
-    if  state['iteration']>3 :
+    if  state['iteration']>4 :
         return False
     else :
         return True
@@ -424,4 +434,15 @@ def process(query):
             message.pretty_print()
         #last_message = state["messages"][0]
         #return last_message.pretty_print()
-        
+
+def is_ollama_model_running(model: str, base_url="http://localhost:11434") -> bool:
+    """
+    Returns True if the given model is running in Ollama (i.e., available), False otherwise.
+    """
+    try:
+        resp = requests.get(f"{base_url}/api/tags", timeout=2)
+        resp.raise_for_status()
+        models = [m["name"] for m in resp.json().get("models", [])]
+        return model in models
+    except requests.RequestException:
+        return False
